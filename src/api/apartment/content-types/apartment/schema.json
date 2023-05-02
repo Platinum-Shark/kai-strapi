@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "apartments",
+  "info": {
+    "singularName": "apartment",
+    "pluralName": "apartments",
+    "displayName": "Apartments"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Price": {
+      "type": "string"
+    },
+    "Available": {
+      "type": "boolean"
+    }
+  }
+}
