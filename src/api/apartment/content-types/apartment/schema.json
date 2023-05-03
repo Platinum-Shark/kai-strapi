@@ -4,7 +4,8 @@
   "info": {
     "singularName": "apartment",
     "pluralName": "apartments",
-    "displayName": "Apartments"
+    "displayName": "Apartments",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,9 @@
     },
     "Available": {
       "type": "boolean"
+    },
+    "Number": {
+      "type": "string"
     }
   }
 }
