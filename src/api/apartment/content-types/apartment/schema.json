@@ -20,6 +20,9 @@
     },
     "Number": {
       "type": "string"
+    },
+    "PriceFR": {
+      "type": "string"
     }
   }
 }
