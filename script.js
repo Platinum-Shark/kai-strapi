@@ -1,5 +1,5 @@
-const floors = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-const apts = ['01', '02', '03', '04', '05', '06']
+const floors = [2, 3, 4, 5, 6, 7, 8, 9]
+const apts = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14']
 const axios = require('axios');
 const run = async () => {
 	for (const floor of floors) {
@@ -11,6 +11,8 @@ const run = async () => {
 					Available: true
 				}
 			}
+
+			console.log(body)
 	
 			let data = JSON.stringify(body);
 			  
