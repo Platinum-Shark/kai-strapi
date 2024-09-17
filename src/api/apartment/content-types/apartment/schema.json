@@ -23,6 +23,9 @@
     },
     "PriceFR": {
       "type": "string"
+    },
+    "AvailableAt": {
+      "type": "date"
     }
   }
 }
